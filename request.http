@@ -1,0 +1,13 @@
+# GET http://localhost:3000/user/index HTTP/1.1
+
+
+# DELETE http://localhost:3000/user/deleteAll HTTP/1.1
+
+
+POST  http://localhost:3000/user/create HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "走神12",
+    "email": "1131422@d2d.com"
+}

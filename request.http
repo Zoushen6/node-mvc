@@ -1,13 +1,14 @@
-# GET http://localhost:3000/user/index HTTP/1.1
+GET http://localhost:3000/user/index?a=333 HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjQsIm5hbWUiOiLotbDnpZ4xMiIsImVtYWlsIjoiMTFkMzE0ZDIyQGQyZC5jb20iLCJpYXQiOjE3MDkwMDQxODYsImV4cCI6MTcwOTYwODk4Nn0.OKIZgRL5Cqe_K_J-rK3cWlm0D42z909ZHxIN5QsZKa8
 
 
 # DELETE http://localhost:3000/user/deleteAll HTTP/1.1
 
 
-POST  http://localhost:3000/user/create HTTP/1.1
-Content-Type: application/json
+# POST  http://localhost:3000/user/create HTTP/1.1
+# Content-Type: application/json
 
-{
-    "name": "走神12",
-    "email": "1131422@d2d.com"
-}
+# {
+#     "name": "走神12",
+#     "email": "11d314d22@d2d.com"
+# }
